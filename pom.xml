@@ -11,6 +11,33 @@
 	<version>0.11.0</version>
 	<artifactId>JSkat</artifactId>
 	<packaging>jar</packaging>
+	<description>A skat game written in Java</description>
+	<url>http://www.jskat.org</url>
+
+	<developers>
+		<developer>
+			<name>Jan Schäfer</name>
+			<email>j@nschaefer.net</email>
+			<roles>
+				<role>Project owner</role>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Markus J. Luzius</name>
+			<email>markus@luzius.de</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Daniel Loreck</name>
+			<email>daniel.loreck@gmail.com</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
 
 	<dependencies>
 		<dependency>
