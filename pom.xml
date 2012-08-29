@@ -8,7 +8,7 @@
 	</properties>
 
 	<groupId>org.jskat</groupId>
-	<version>0.11.0</version>
+	<version>0.12.0-SNAPSHOT</version>
 	<artifactId>JSkat</artifactId>
 	<packaging>jar</packaging>
 	<description>A skat game written in Java</description>
