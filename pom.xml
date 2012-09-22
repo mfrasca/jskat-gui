@@ -65,42 +65,6 @@
 					<debug>true</debug>
 				</configuration>
 			</plugin>
-			<!-- Assemble base JAR file for Android version -->
-			<plugin>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.3.1</version>
-				<executions>
-					<execution>
-						<id>base</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-						<phase>package</phase>
-						<configuration>
-							<classifier>base</classifier>
-							<includes>
-								<include>**/jskat/ai/**</include>
-								<include>**/jskat/control/**</include>
-								<include>**/jskat/data/**</include>
-								<include>**/jskat/i18n/**</include>
-								<include>**/jskat/gui/action/**</include>
-								<include>**/jskat/gui/human/**</include>
-								<include>**/jskat/gui/img/**</include>
-								<include>**/jskat/gui/*</include>
-								<include>**/jskat/player/**</include>
-								<include>**/jskat/util/**</include>
-							</includes>
-							<excludes>
-								<include>**/jskat/gui/human/SwingHumanPlayer*</include>
-								<include>**/jskat/gui/swing/**</include>
-								<include>**/jskat/gui/img/cards/**</include>
-								<include>**/jskat/gui/img/gui/**</include>
-								<exclude>**/jskat/JSkat*</exclude>
-							</excludes>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 			<!-- JAR file with all dependencies -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
