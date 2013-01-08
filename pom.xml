@@ -148,4 +148,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	<name>JSkat</name>
 </project>
